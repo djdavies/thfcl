@@ -1,5 +1,4 @@
 @extends('layouts.master')
-
 @section('title', 'All Players')
 
 @section('content')
@@ -13,7 +12,7 @@
                         <script>
                             $("#input-id").rating();
                         </script>
-                        <input id="input-id" name="input-name" type="number" class="rating" min=0 max=5 step=1 data-size="lg" data-rtl="false">
+                        <input id="input-id" name="input-name" type="number" class="rating" min=0 max=5 step=1 data-size="xs" data-rtl="false">
                         <p><a href="#" class="btn btn-primary" role="button">Rate</a></p>
                     </div>
                 </div>
